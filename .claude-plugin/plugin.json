@@ -1,0 +1,8 @@
+{
+  "name": "useful-skills",
+  "description": "Skills that complement the development-skills plugin: language conventions, debugging, chronicles, ADRs, project documentation, PostgreSQL access, release setup, and dependency updates.",
+  "version": "0.1.0",
+  "author": { "name": "salvob41", "url": "https://github.com/salvob41" },
+  "repository": "https://github.com/salvob41/useful-skills",
+  "license": "MIT"
+}

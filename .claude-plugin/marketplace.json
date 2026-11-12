@@ -1,0 +1,13 @@
+{
+  "name": "useful-skills",
+  "description": "Marketplace for the useful-skills plugin",
+  "owner": { "name": "salvob41" },
+  "plugins": [
+    {
+      "name": "useful-skills",
+      "description": "Skills that complement the development-skills plugin",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}
