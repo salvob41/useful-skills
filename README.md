@@ -42,6 +42,15 @@ npx skills add vercel-labs/skills --skill find-skills -g
 
 The same command installs this repository's skills on agents without plugin support, with `npx skills add salvob41/useful-skills`. These skills use Claude Code frontmatter fields such as `user-invocable`, which other agents usually ignore. Only Claude Code has been tested.
 
+### Global setup
+
+My global `CLAUDE.md`, and an installer for `ponytail`, `unslop` and `find-skills`, are in [this gist](https://gist.github.com/salvob41/5c095fd1282edefb6d6894ee9d2ddb03). The installer links the gist's `CLAUDE.md` to `~/.claude/CLAUDE.md` and backs up any existing file. Rerun it to update the skills:
+
+```bash
+gh gist clone 5c095fd1282edefb6d6894ee9d2ddb03 ~/claude-global
+bash ~/claude-global/install.sh
+```
+
 ## Skills
 
 | Skill | What it does |
